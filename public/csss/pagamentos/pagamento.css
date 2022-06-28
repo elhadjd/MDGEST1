@@ -1,0 +1,62 @@
+   #divpagamento{
+    width: 100%;
+    height: 300px;
+}
+#method_pagamento{
+    background-color: white;
+}
+.methodos{
+    border-bottom: 1px solid #eee;
+    border-radius: 5px;
+}
+.methodos i{
+    font-size: 30px;
+    color: rgba(255, 187, 0, 0.945);
+}
+.methodos:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: rgba(98, 148, 255, 0.945);
+    color: white;
+}
+#totais{
+    background-color: white;
+
+}
+
+#input_pagamento{
+    background-color: white;
+}
+.tipos{
+    font-size: 18px;
+    margin-left: 80%;
+}
+.total_de_produto{
+    border-bottom: 2px solid #eee;
+    font-size: 17px;
+    font-weight: 600;
+}
+.total_a_pagr{
+    border-bottom: 2px solid #eee;
+    font-size: 17px;
+    font-weight: 600;
+}
+.a_pagar{
+    position: absolute;
+    right: 25px;
+}
+.total{
+    position: absolute;
+    right: 25px;
+}
+#input_pagamento input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ddd;
+    padding-left: 10px;
+    padding: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #666;
+}

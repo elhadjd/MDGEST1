@@ -1,0 +1,41 @@
+#nav_da_home_compra nav ul li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+#nav_da_home_compra nav{
+    background-color: #A3498B;
+    z-index: 1080;
+}
+#nav_da_home_compra nav ul{
+    padding: 0px;
+    margin-left: 50px;
+    width: 100%;
+    z-index: 1080;
+}
+#nav_da_home_compra nav ul li{
+    padding: 10px;
+    font-weight: 500;
+}
+#nav_da_home_compra nav ul li:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #8b4178;
+}
+
+#user_conectado{
+    position: absolute;
+    right: 0;
+}
+.botao{
+    position: fixed;
+    top: 7;
+    left: 5px;
+    font-size: 30px;
+    color: white;
+    z-index: 1060;
+}
+.botao:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}

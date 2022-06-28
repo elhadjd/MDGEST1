@@ -1,0 +1,317 @@
+.App{
+    background-color: #f9f9f9f9;
+    width: 100%;
+    height: 87%;
+    margin-top: 40px;
+}
+.App #titlo{
+    font-size: 22px;
+    text-emphasis: none;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #666;
+}
+.list_para_cima {
+    font-size: 17px;
+    font-weight: 600;
+}
+.list_user_baixo{
+    height: 90%;
+}
+.list_para_cima div{
+    width: 18%;
+}
+.list_users_baixo{
+    background-color: white;
+    border-bottom: 1px solid #f5f5f5f9;
+    padding: 3px;
+    padding-left: 10px;
+}
+.list_users_baixo div{
+    width: 18%;
+
+}
+.div_bloco_usuario{
+    width: 100%;
+    height: 90%;
+    top: 0;
+    background-color: #f9f9f9f9;
+}
+#bloco_user_de_cima{
+    width: 100%;
+    height: 100px;
+}
+.bloco_user_de_baixo{
+    width: 100%;
+    background-color: white;
+    height: 90%;
+}
+.bloco_usuario{
+    background-color: #f9f9f9f9;
+    width: 80%;
+    height: 88%;
+    margin-left: 10%;
+    border-radius: 5px;
+    border: 1px solid #eeeeeef9;
+}
+#label_info label{
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px;
+}
+#inputs_info {
+    width: 320px;
+}
+#inputs_info input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ddd;
+    margin-top: 8px;
+    padding: 2px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#inputs_info select{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ddd;
+    margin-top: 8px;
+    padding: 4px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.form_tipo_acces{
+    width: 47%;
+}
+.form_tipo_acces #modolus{
+    width: 100%;
+    margin-left: 15px;
+}
+.form_select_acces{
+    padding: 8px;
+    width: 40%;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid #ddd;
+}
+.form_select_acces:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.altura_da_form{
+    height: 35%;
+    width: 100%;
+}
+#linha{
+    border: 1px solid #eee;
+    margin-right: 10px;
+}
+.list_users_baixo:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+#form_img {
+    width: 165px;
+}
+.mostre_accsApp{
+    position: static;
+}
+#apelido{
+    border: none;
+    outline: none;
+    padding: 0;
+    border-bottom: 2px solid #ddd;
+    padding-left: 10px;
+}
+#dropdownMenuLink:hover{
+    cursor: pointer;
+}
+.ApagarUser{
+    background-color: #A3498B;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+#actionForm{
+    margin-left: 33%;
+    background-color: white;
+}
+#actionForm #action{
+    background-color: white;
+}
+#actionForm #action:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #A3498B;
+    color: white;
+}
+#dropdownMenuLink{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ddd;
+}
+#form_img img{
+    width: 160px;
+    height: 150px;
+}
+.list_users_baixo:nth-child(even){
+    background-color: #eee;
+}
+.form_user_de_cima{
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+}
+#informacoes{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+.bloco_de_empresa{
+    width: 25%;
+}
+.icone_empresa i{
+    font-size: 110px;
+}
+#informacoes div{
+    width: 15%;
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.form_img_user{
+    width: 20%;
+    padding: 10px;
+    right: 0;
+    margin-left: 2%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid rgb(247, 247, 247);
+}
+.form_img_user .edit_img{
+    width: 155px;
+    margin-left: 9px;
+    position: absolute;
+    text-align: center;
+    padding: 13px;
+}
+.form_img_user .edit_img label{
+    position: absolute;
+    left: 5;
+    top: 5;
+}
+.form_img_user .edit_img:hover{
+    background-color: #a3498b54;
+    color: white;
+}
+.form_img_user .edit_img label i{
+    font-size: 20px;
+    color: #A3498B;
+}
+.form_img_user .edit_img label i:hover{
+    cursor: pointer;
+}
+.form_img_user .edit_img span i{
+    font-size: 20px;
+    color: #666;
+}
+.form_img_user .edit_img span i:hover{
+    color: red;
+    cursor: pointer;
+}
+.form_img_user .edit_img span{
+    position: absolute;
+    right: 5;
+    top: 5;
+}
+.form_img_user #form_img{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+#informacoes div:hover{
+    background-color: #eee;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.form_nome_email{
+    width: 78%;
+}
+#icone i{
+    font-size: 70px;
+}
+#icone{
+    display: block;
+    text-align: center;
+    font-size: 18px !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.baixo{
+    padding: 5px;
+    background-color: #00c2cc;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.btnCriarGuardar{
+    background-color: #00c2cc;
+    color: white;
+    padding: 7px;
+    width: 67px;
+    margin-left: 5px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.btnCriarGuardar:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.titlo_lista_de_user{
+    font-size: 20px;
+}
+.form_lista_de_user{
+    height: 90%;
+    background-attachment: fixed;
+    background-color: #f9f9f9f9;
+}
+.baixo:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.baixo a{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+.pages a i{
+    font-size: 25px;
+}
+#bloco_user{
+    background-color: white;
+}
+.App .blocos{
+    height: 95%;
+    display: flex;
+    background-color: #f9f9f9f9;
+}
+.App .blocos label{
+    width: 33%;
+    max-height: 45%;
+    background-color: white;
+    color: #666;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    margin: 4px;
+    padding: 7px;
+}

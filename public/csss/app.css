@@ -1,0 +1,575 @@
+#select_tipo_forne{
+    border: none;
+    border-bottom: 2px solid #777;
+    outline: none;
+    width: 100%;
+    nav-down: auto;
+}
+#label_imagem_func i{
+	font-size: 20px;
+	top: -15;
+}
+.lista_dos_produtoss{
+    height: 76%;
+}
+
+#label_imagem_func{
+	width: 160px;
+	position: absolute;
+	right: 10px;
+	padding: 3;
+	z-index: 999;
+	background-color: #eee;
+	display: flex;
+	top: 3px;
+}
+#label_imagem_func #tash_img{
+	position: absolute;
+	color: #A3498B;
+	right: 1px;
+}
+#label_imagem_func #edit_img{
+	color: #7C7BAD;
+}
+#label_imagem_func #tash_img:hover{
+	cursor: pointer;
+	color: red;
+}
+#label_imagem_func #edit_img:hover{
+	cursor: pointer;
+	color: blue;
+}
+#label_imagem_func input{
+	display: none;
+}
+#label_imagem_func #edit_img{
+	color: #7C7BAD;
+}
+#label_imagem_func #edit_img:hover{
+	cursor: pointer;
+	color: blue;
+}
+#label_imagem_func #tash_img{
+	position: absolute;
+	color: #7C7BAD;
+	right: 1px;
+}
+#label_imagem_func #tash_img:hover{
+	cursor: pointer;
+	color: red;
+}
+#imagem_funcionario{
+	width: 170px;
+	height: 140px;
+	position: absolute;
+	right: 5px;
+	top: 0;
+}
+#imagem_funcionario img{
+    height: 140px;
+}
+#label_imagem_func{
+	text-align: center;
+	align-items: center;
+	align-content: center;
+}
+#label_imagem_func:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.select_tipo_for{
+    width: 60%;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.lista_dos_pagamentos{
+    background-color: #f9f9f9f9;
+    height: 78%;
+}
+.add_pag{
+    background-color: #00c2cc;
+    color: white;
+    float: right;
+}
+.botao{
+    z-index: 1080;
+}
+.totais_das_ordens{
+    background-color: #A3498B;
+    width: 70%;
+    top: 0;
+    margin-left: 30%;
+    padding: 7px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.titls_list_ordens div{
+    width: 20%;
+}
+.muvemento_pag div{
+    width: 25%;
+}
+.muvemento_pag{
+    margin-left: 25%;
+    padding: 2px;
+    margin-top: 1px;
+    border-bottom: 1px solid #eee;
+}
+#total_da_orden{
+    text-align: right;
+}
+.muvemento_pag:nth-child(even){
+    background-color: white;
+}
+.muvemento_pag:hover{
+    cursor: pointer;
+    background-color: #A3498B;
+    color: white;
+}
+.nav_da_home_compra{
+    z-index: 1080;
+}
+#lista_de_orden{
+    width: 95%;
+    border-bottom: 1px solid #eeee;
+}
+#lista_de_orden:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.borderse{
+    height: 67%;
+    width: 99%;
+    margin-left: 0.5%;
+}
+#div_input_psq_pagamentos{
+    width: 30%;
+    margin-left: 69%;
+}
+#div_input_psq_pagamentos #pesquisar_pagamento{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-bottom: 3px solid #ddd;
+    padding-left: 10px;
+    margin: 10px;
+}
+#lista_de_orden div{
+    width: 20%;
+    color: #666;
+    margin-left: 10px;
+    padding: 3px;
+}
+#lista_de_orden:nth-child(even){
+    background-color: white;
+}
+.pagamentos{
+    top: 0;
+    background-color: #f9f9f9f9;
+}
+#orden_title{
+    background-color: #ddd;
+}
+#orden_title div{
+    padding: 8px;
+    width: 20%;
+    font-weight: 700;
+}
+#compras{
+    margin-top: 50px;
+}
+#add_new_ordens{
+    margin-top: 40px;
+    height: 72%;
+    background-color: #f9f9f9f9;
+    z-index: 1030;
+}
+
+#select_fernecedor{
+    border: none;
+    border-bottom: 2px solid #666;
+    border-radius: 0;
+    text-align: left;
+}
+.baixo_da_lista_artigo{
+    bottom: 2;
+    background-color: white;
+    width: 97%;
+}
+.titlo{
+    font-weight: 800;
+    font-size: 17px;
+}
+.novo_artigo:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.fecaho_lista_artigo:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.linhas_artigos{
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    font-weight: 600;
+    color: #666;
+}
+.total_orden{
+    text-align: right;
+    margin-right: 10px;
+}
+.div_da_pesquisa{
+    width: 100%;
+    margin-right: 5px;
+}
+.div_da_pesquisa #psquisa{
+    float: right;
+    width: 30%;
+    margin-bottom: 4px;
+}
+#filtro{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 2px;
+}
+.div_da_pesquisa #psquisa input{
+    padding-left: 30px;
+}
+.div_da_pesquisa #psquisa i{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 5px;
+    color: #ddd;
+    margin-left: 5;
+}
+.apagar{
+    font-size: 20px;
+}
+.apagar:hover{
+    color: red;
+}
+.Usuario div{
+    padding: 5px;
+    font: 12pt arial;
+    font-weight: 600;
+    color: #777;
+}
+.Usuario div:hover{
+    cursor: pointer;
+    background-color: #f3f3f3f9;
+}
+#nome_artigo{
+    font-size: 16px;
+}
+.totais_da_orden{
+    position: absolute;
+    right: 25px;
+}
+.total_da_orden{
+    float: right;
+    background-color: white;
+    font-weight: 600;
+}
+.lista_dos_produtos{
+    width: 100%;
+}
+#div_pagamento{
+    width: 70%;
+    position: absolute;
+    top: 0px;
+    margin-left: 15%;
+    z-index: 1060;
+}
+#regular{
+    font-size: 16px;
+    position: absolute;
+    right: 390px;
+}
+#regular:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.linhas_artigos:nth-child(even){
+    background-color: #f9f9f9f9;
+}
+.linhas_artigos:hover{
+    background-color: #6EC89B;
+    color: white;
+    cursor: pointer;
+}
+#menssagem{
+    margin-left: 25%;
+    position: absolute;
+    z-index: 1060;
+}
+#lista_de_artigossss{
+    top: 30;
+    position: absolute;
+    width: 60%;
+    margin-left: 20%;
+    min-height: 50%;
+    max-height: 100%;
+    z-index: 1060;
+}
+#imagem_fornecedor{
+    width: 150px;
+    height: 145px;
+
+}
+#edit_img_fr{
+    width: 155px;
+    height: 105px;
+}
+#edit_img_fr img{
+    height: 105px;
+    width: 155px;
+}
+#criar_fornecedor{
+    width: 80%;
+    position: absolute;
+    background-color: #f9f9f9f9;
+    margin-left: 10%;
+    z-index: 999;
+    margin-top: 4%;
+    webkit-box-shadow: 17px 25px 56px -22px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 17px 25px 56px -22px rgba(0, 0, 0, 0.38);
+    box-shadow: 17px 25px 56px -22px rgba(0, 0, 0, 0.38);
+}
+#lista_orden_das_pesquisa{
+    height: 100%;
+}
+.bg_compra{
+    background-color: #f9f9f9f9;
+    height: 75%;
+    position: fixed;
+}
+.tab_novo_fornecedor{
+    z-index: 999;
+    background-color: white;
+    color: red;
+}
+#linhas_de_pedido{
+    margin-top: 1px;
+    background-color: white;
+    padding: 1px;
+    color: #777;
+}
+
+#linhas_de_pedido:nth-child(even){
+    background-color: #f9f9f9f9;
+}
+#linhas_de_pedido:hover{
+    background-color: #6EC89B;
+    color: white;
+    cursor: pointer;
+}
+.artigo_encontrado{
+    border-bottom: 1px solid #ddd;
+    padding: 2px;
+    padding-left: 5px;
+}
+.artigo_encontrado:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #ddd;
+}
+.total{
+    text-align: right;
+}
+.apagar{
+    width: 50px;
+    text-align: right;
+    margin-right: 2px;
+}
+.lista_dos_pedidos{
+    max-height: 40%;
+    bottom: 0px;
+    background-color: #f9f9f9f9;
+    z-index: 999;
+}
+#filtro_tit{
+    font-size: 15px;
+    padding: 3px;
+    width: 50px;
+}
+#filtro_tit:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#lista_de_filtro{
+    background-color: #f9f9f9f9;
+    z-index: 999s;
+    width: 250px;
+}
+
+#estado{
+    font-size: 16px;
+}
+.dropdown-menu:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+#fornecedoress{
+    margin-left: 60px;
+    position: absolute;
+    background-color: white;
+}
+#fornece{
+    font-size: 16px;
+}
+#fornece:hover{
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.8;
+}
+#estado:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: white;
+}
+#por_datass{
+    font-size: 16px;
+}
+#por_datass:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: white;
+}
+.estadoss{
+    margin-top: 2px;
+    background-color: white;
+    padding: 2px;
+    padding-right: 5px;
+    border-radius: 2px;
+}
+#estados{
+    position: absolute;
+    background-color: white;
+    margin-left: 60px;
+}
+.estadoss:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    font-size: 15px;
+    background-color: #eee;
+}
+#por_totais{
+    font-size: 16px;
+}
+#por_totais:hover{
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.totales:hover{
+    cursor: pointer;
+    background-color: #f9f9f9f9;
+    padding: 3px;
+}
+#por_maiores{
+    margin-left: 40px;
+    position: absolute;
+    width: 200px;
+    background-color: white;
+}
+#por_maiores input{
+    padding: 5;
+}
+#por_menores{
+    margin-left: 40px;
+    position: absolute;
+    width: 200px;
+    background-color: white;
+}
+#por_menores input{
+    padding: 5;
+}
+#por_datas{
+    position: absolute;
+    width: 200px;
+    background-color: white;
+    margin-left: 60px;
+}
+#aplicar_por_datas:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+#por_eguais{
+    margin-left: 40px;
+    position: absolute;
+    width: 200px;
+    background-color: white;
+}
+#por_eguais input{
+    padding: 5;
+}
+.aplic_por_valor{
+    font-size: 15px;
+}
+.aplic_por_valor:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+#por_totals{
+    margin-left: 60px;
+    background-color: white;
+    position: absolute;
+    width: 150px;
+}
+.apagar i{
+    margin-top: 5px;
+}
+#linhas_de_pedido input{
+    border: none;
+    outline: none;
+    padding: 0;
+    border-bottom: 1px solid #ddd;
+    padding-left: 5px;
+}
+#add_prod{
+    font-size: 18px;
+    color: #219c96;
+    width: 150px;
+}
+#add_prod:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#pesquisar_fernecedor{
+    border: none;
+    border-bottom: 2px solid #666;
+    border-radius: 0;
+    position: absolute;
+    top: -5px;
+    outline: none;
+    width: 100%;
+}
+.espacho_fornecedor{
+    margin-left: 50px;
+    box-shadow: #666;
+}
+
+#compo_fornecer{
+    margin-top: 20px;
+}
+.linha_orden{
+    background-color: white;
+    margin-top: 1px;
+}
+.linha_orden div{
+    width: 20%;
+}
+.linha_orden:nth-child(even){
+    background-color: #eee;
+    color: #666;
+}
+.linha_orden:hover{
+    background-color: #6EC89B;
+    color: white;
+    cursor: pointer;
+    opacity: 0.8;
+}

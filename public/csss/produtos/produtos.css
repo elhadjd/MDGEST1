@@ -1,0 +1,364 @@
+.lista_dos_produtos{
+    width: 100%;
+    height: 100%;
+}
+span{
+    font-size: 25px;
+}
+.btncriar_artigo{
+    font-size: 18px;
+}
+.btncriar_artigo:hover{
+    background-color: #eee;
+}
+.lista_dos_artigose{
+    height: 100%;
+}
+.div_da_pesquisa_prod{
+    right: 1px;
+    width: 30%;
+    position: absolute;
+    float: right;
+}
+.lista_dos_artigos{
+    height: 70%;
+}
+#bloco_artigo:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.strela i{
+    font-size: 18px;
+}
+#bloco_artigo{
+    width: 315px;
+    height: 90px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background-color: white;
+}
+.titlo_novo_produto{
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;
+}
+.btn_guardar_descartar{
+    background-color: white;
+}
+.div_btn_guard_descart{
+    background-color: #f9f9f9f9;
+}
+#view_muvementos{
+    background-color: white;
+    height: 65px;
+    width: 49%;
+    font: 11pt arial;
+    font-weight: 600;
+    padding-top: 10px;
+}
+#view_muvementos:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+#view_muvementos i{
+    font-size: 27px;
+    margin-top: 10px;
+    color: #7C7BAD;
+}
+#view_muvementos div{
+    color: #7C7BAD;
+}
+.form_novo_prod{
+    width: 100%;
+    background-color: white;
+    height: 82%;
+}
+.altura_da_form{
+    height: 100%;
+    padding: 0;
+}
+.muvementos_deste_artigo{
+    max-height: 100%;
+}
+.novo_produto{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#bloco_artigo #div_da_imagem{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.imagem_novo_produto{
+    background-color: #f9f9f9f9;
+    border-radius: 10px;
+    padding: 5px;
+}
+#edit_img{
+    color: rgba(98, 148, 255, 0.945);
+}
+#edit_img:hover{
+    cursor: pointer;
+}
+.botoes_do_meio{
+    border-bottom: 2px solid #eee;
+}
+.botoes_do_meio div{
+    width: 15%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.botoes_do_meio div:hover{
+    background-color: #eeee;
+    cursor: pointer;
+    opacity: 0.8;
+}
+#linha_lista_de_preco input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ddd;
+    width: 60%;
+}
+#linha_lista_de_preco {
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+#linha_lista_de_preco div{
+    font-weight: 600;
+    width: 25%;
+}
+#tipo_de_desconto{
+    border-bottom: 1px solid #ddd;
+    width: 10px;
+}
+.linha{
+    border: 1px solid #ddd;
+    margin-top: 30px;
+}
+#inputs_informacao{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 75%;
+}
+#search_fornecedor_para_produto{
+    border: none;
+    outline: none;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 3px;
+    padding-left: 5px;
+}
+#fornecedore_de_produto label{
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+#select_fornecedor{
+    font-size: 15px;
+    padding-left: 5px;
+}
+.adicionar_fornecedor_para_artigo{
+    background-color: transparent;
+    border-bottom: 2px solid #eee;
+    padding: 5px;
+}
+.lista_de_fornecedores_para_produto{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f9f9f9f9;
+    min-height: 50px;
+    max-height: 150px;
+}
+#inputs_informacao div{
+    margin-top: 13px;
+}
+.informacoa_prod{
+    font-size: 16px;
+    font-weight: 600;
+}
+#div_nome_fornecedore{
+    margin-top: 2px;
+    background-color: white;
+    padding: 5px;
+}
+.informacoa_prod div{
+    margin-top: 20px;
+}
+.input_info{
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    outline: none;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 15px;
+}
+#information_prod{
+    width: 100%;
+    height: 48%;
+}
+.input_nome_tipo label{
+    font-size: 16px;
+    font-weight: 600;
+}
+.input_nome_tipo{
+    width: 65%;
+}
+.icones{
+    width: 140px;
+    position: absolute;
+    background-color: transparent;
+    margin-left: 5px;
+    padding: 3px;
+    margin-top: 5px;
+}
+.icones:hover{
+    background-color: #f9f9f9f9;
+    opacity: 0.5;
+}
+.icones i{
+    font-size: 22px;
+}
+#icone_delete_img{
+    color: #666;
+    margin-left: 70%;
+}
+#icone_delete_img:hover{
+    color: red;
+    cursor: pointer;
+}
+.imagem_novo_produto img{
+    width: 140px;
+    height: 135px;
+}
+#bloco_artigo #div_da_imagem img{
+    width: 80px;
+    height: 78px;
+}
+.div_preco_qtd{
+    width: 100%;
+   margin: 10px;
+}
+#imagem{
+
+    width: 10%;
+}
+.titleOrden{
+    width: 100%;
+    background-color: #f9f9f9f9;
+    border-top: 2px solid #f1f1f1f9;
+    font: 12pt arial;
+    font-weight: 600;
+}
+.preco_qtd{
+    width: 95%;
+}
+.resultMuv{
+    margin-left: 25%;
+}
+.ListMuvementos{
+    background-color: #f9f9f9f9;
+    z-index: 1070;
+}
+.OrdenCim{
+    height: 18%;
+    padding-top: 10px;
+}
+#PesquisarOrde{
+    border: none;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 3px;
+    padding-left: 12px;
+    border-radius: 5px;
+}
+.TipoMuve:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.ListMuvementos div{
+    font: 11pt arial;
+    font-weight: 600;
+    color: #777;
+}
+.DivOrdensVenda{
+    background-color: white;
+    height: 86%;
+    z-index: 1080;
+}
+.Direita{
+    text-align: right;
+    margin-right: 5px;
+}
+.ListaDeMuvementos{
+    border-bottom: 1px solid #f1f1f1f9;
+}
+.ListaDeMuvementos:nth-child(even){
+    background-color: #fcfcfcf9;
+}
+.ListaDeMuvementos:hover{
+    background-color: #f9f9f9f9;
+    cursor: pointer;
+}
+.ListaDeMuvementos div{
+    width: 18.75%;
+    padding: 5px;
+    font: 10pt arial;
+    font-weight: bold;
+}
+.titleOrden div{
+    width: 18.75%;
+    border-left: 1px solid #eee;
+    padding: 5px;
+    padding-left: 5px;
+}
+.ListMuvementos:hover{
+    background-color: #e9e7e7f9;
+    cursor: pointer;
+}
+.quantidades div{
+    width: 32%;
+    margin-left: 1%;
+    display: flex;
+}
+.quantidades div strong{
+    margin-top: 5px;
+}
+.quantidades div input{
+    width: 65%;
+    padding-left: 3px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ddd;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.quantidades{
+}
+h3{
+    background-color: #A3498B;
+    color: white;
+}
+#ResultadoPesqusa{
+    max-height: 50%;
+    width: 25%;
+}
+#ResultadoPesqusa div{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+#ResultadoPesqusa div:nth-child(even){
+    background-color: #f9f9f9f9;
+}
+#ResultadoPesqusa div:hover{
+    cursor: pointer;
+    background-color: #fcfcfcf9;
+}

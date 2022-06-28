@@ -1,0 +1,263 @@
+.App{
+    height: 87%;
+    margin-top: 43px;
+}
+.ListRelatorios div:hover{
+    background-color: #f9f9f9f9;
+    cursor: pointer;
+}
+.ListRelatorios{
+    width: 15%;
+    padding: 2px;
+    background-color: #f9f9f9f9;
+    border-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.ListRelatorios div{
+    padding: 3px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: white;
+    font-weight: 500;
+}
+.ListStockBaixo{
+    height: 85%;
+}
+.ListStockBaixo button{
+    padding: 8px;
+    border: none;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font: 11pt arial;
+    font-weight: 600;
+    background-color: #00c2cc;
+    color: white;
+}
+.ListStockCima{
+
+    height: 15%;
+    background-color: white;
+    border-bottom: 2px solid #eee;
+}
+.FormArmagen{
+    margin-left: 25%;
+}
+.FormArmagen label{
+    font: 10pt arial;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #777;
+}
+.FormArmagen h3{
+    background-color: #A3498B;
+    color: white;
+}
+.ListaArmagens{
+
+}
+.ArmagensForme{
+    width: 23%;
+    display: inline-flex;
+    margin: 12px;
+    background-color: white;
+    height: 100px;
+    padding: 5px;
+}
+.NomeArmagens:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.ImagenArmagen img{
+    width: 250px;
+}
+.guardarArmagem{
+    background-color: #00c2cc;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+}
+.NomeArmagens img{
+    width: 120px;
+}
+.MuvementosCima{
+    height: 20%;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 3px solid #ddd;
+}
+.MuventosBaixo{
+    height: 80%;
+    width: 100%;
+}
+.titleMuvementos div{
+    width: 14.28%;
+    font: 12pt arial;
+    font-weight: bolder;
+    border-left: 2px solid #eee;
+    padding: 5px;
+    padding-left: 5px;
+}
+.ListaMuvementos{
+    border-bottom: 1px solid #f9f9f9f9;
+}
+.ListaMuvementos div{
+    width: 14.28%;
+    padding: 5px;
+    padding-left: 5px;
+    font: 10pt arial;
+    font-weight: bold;
+}
+.ListaMuvementos:nth-child(even){
+    background-color: #fcfcfcf9;
+}
+.ListaMuvementos:hover{
+    background-color: #f9f9f9f9;
+    cursor: pointer;
+}
+.titelArmagens{
+    background-color: #f8f8f8f9;
+}
+.titelArmagens div{
+    padding: 5px;
+    padding-left: 4px;
+    border-left: 1px solid #eee;
+    font: 12pt arial;
+    font-weight: bold;
+}
+.ArmagensList div{
+    padding: 5px;
+    padding-left: 4px;
+    font: 10pt arial;
+    font-weight: bold;
+}
+.ArmagensList:nth-child(even){
+    background-color: #fcfcfcf9;
+}
+.ArmagensList:hover{
+    background-color: #f8f8f8f9;
+    cursor: pointer;
+}
+.stockDisponivel{
+    position: absolute;
+    margin-left: 6%;
+    font: 10pt arial;
+    font-weight: bold;
+    color: #A3498B;
+}
+.stockDisponivel i{
+    font-size: 20px;
+}
+.TitleStockArmagen{
+    background-color: #f9f9f9f9;
+    color: #777;
+}
+.FormListeStock{
+    margin-left: 12.5%;
+}
+.TitleStockArmagen div{
+    padding: 5px;
+    padding-left: 5px;
+    border-left: 1px solid #eee;
+    font: 12pt arial;
+    font-weight: 600;
+    width: 16.67%;
+}
+.nomeArmagen{
+    font: 12pt arial;
+    font-weight: 600;
+}
+.ResultadoStock{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background-color: #f9f9f9f9;
+    z-index: 1060;
+}
+.ListStockArmagen div{
+    padding: 4px;
+    padding-left: 5px;
+    font: 10pt arial;
+    font-weight: 600;
+    width: 16.67%;
+    border-bottom: 1px solid #eee;
+}
+.ListStockArmagen:nth-child(even){
+    background-color: #fcfcfcf9;
+}
+.ListStockArmagen:hover{
+    background-color: #f9f9f9f9;
+    cursor: pointer;
+}
+.TotaisStockArmagen{
+    width: 75%;
+    background-color: #A3498B;
+    color: white;
+    font: 13pt arial;
+    font-weight: 600;
+}
+#nav_da_home_compra{
+    z-index: 1080;
+}
+.transferencias input{
+    width: 100%;
+    padding: 2px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #eee;
+    padding-left: 5px;
+    color: #555;
+}
+.FormTranferencia{
+    z-index: 999;
+    margin-left: 12.5%;
+}
+.QuantidadeDisponivel{
+    font: 11pt arial;
+    color: #A3498B;
+    font-weight: 600;
+}
+.transferencias i{
+    font-size: 25px;
+    color: #A3498B;
+    margin-left: 10px;
+}
+.ResultPrincipal{
+    font: 10pt arial;
+    font-weight: bold;
+}
+.ResultPrincipal div:nth-child(even){
+    background-color: #fcfcfcf9;
+}
+.ResultPrincipal div:hover{
+    cursor: pointer;
+    background-color: #f9f9f9f9;
+}
+.ResultArtigo div:hover{
+    cursor: pointer;
+    background-color: #f9f9f9f9;
+}
+.ResultArtigo{
+    font: 10pt arial;
+    font-weight: bold;
+}
+.ResultArtigo div:nth-child(even){
+    background-color: #fcfcfcf9;
+}
+.ResultDestino div:hover{
+    cursor: pointer;
+    background-color: #f9f9f9f9;
+}
+.ResultDestino{
+    font: 10pt arial;
+    font-weight: bold;
+}
+.ResultDestino div:nth-child(even){
+    background-color: #fcfcfcf9;
+}
+.menssagem{
+    margin-top: 50px;
+}

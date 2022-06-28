@@ -1,0 +1,41 @@
+.menu_home{
+    width: 15%;
+    padding: 0;
+    background-color: #A3498B;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    font-size: 17px;
+    left: 0;
+    z-index: 1060;
+}
+.nav_home{
+    background-color: #A3498B;
+    padding-bottom: 0px;
+}
+.nav_home nav ul{
+    display: flex;
+    list-style: none;
+}
+#nome_user{
+    position: absolute;
+    right: 10;
+    top: 2;
+    font-weight: 600;
+    list-style: none;
+    color: white;
+}
+.menu_home ul{
+    padding: 0;
+    margin-top: 35px;
+}
+.menu_home ul li{
+    list-style: none;
+    font-weight: 600;
+    color: white;
+    padding: 8px;
+}
+.menu_home ul li:hover{
+    cursor: pointer;
+    background-color: #8d4179;
+}

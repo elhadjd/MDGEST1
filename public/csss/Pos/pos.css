@@ -1,0 +1,904 @@
+#headerPos{
+    background-color: #A3498B;
+    color: white;
+}
+#headerPos nav{
+    width: 100%;
+    display: flex;
+}
+.FormPagamentoCima{
+    height: 25%;
+    width: 100%;
+}
+.FormPagamentoCima .div2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.FormPagamentoCima .div2 span{
+    width: 75%;
+}
+.AdicionarCliente i{
+    font-size: 18px;
+    color: #92487d;
+    margin-top: 5px;
+}
+.AdicionarCliente{
+    margin-left: 7px;
+}
+.Faturas{
+    font: 12pt arial;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(124, 123, 123);
+}
+.Faturas i{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.Faturas:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.AdicionarCliente:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+#novoCliente{
+    position: absolute;
+    top: 100px;
+    width: 25%;
+    height: 25%;
+    box-shadow: rgb(black, #333, #666);
+    background-color:  white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color:  #777;
+    margin-left: 50px;
+}
+#novoCliente h3{
+    text-align: center;
+}
+#novoCliente input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding: 3px;
+    padding-left: 8px;
+}
+#GuardarCliente{
+    background-color: #92487d;
+    color: white;
+    float: right;
+    margin-right: 15px;
+    margin-top: 7px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#FormClienteBaixo{
+    width: 100%;
+    display: flex;
+}
+.fecharBloco{
+    background-color: #777;
+    color: white;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-top: 7px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.fecharBloco:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.IdCliente{
+    display: none;
+}
+.resultadoNomeCliente{
+    width: 100%;
+    padding: 2px;
+    border-bottom: 1px solid #ddd;
+}
+.resultadoNomeCliente:nth-child(even){
+    background-color: white;
+}
+.resultadoNomeCliente:hover{
+    cursor: pointer;
+    background-color: #fcfcfcf9;
+}
+#ResultadoClientes{
+    position: absolute;
+    width: 25%;
+    height: 40%;
+    top: 70px;
+    margin-left: 100px;
+    background-color: #f9f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    overflow-y: auto;
+    padding: 10px;
+    color: #777;
+}
+#GuardarCliente:hover{
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+.FormPagamentoCima .div2 span input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding-left: 10px;
+}
+.QtdPrcImpr {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+#headerPos nav li {
+    list-style: none;
+    font-weight: 800;
+    font: 25pt arial;
+    padding: 2px;
+}
+.MenuPos{
+    background-color: #f9f9f9f9;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.Posesquerda{
+    background-color: white;
+    width: 33%;
+    border: 2px solid #ddd;
+    height: 97%;
+}
+
+.Posdireita{
+    width: 67%;
+    background-color: #f9f9f9f9;
+    height: 100;
+    border: 1px solid #ddd;
+    height: 100%;
+    padding: 5px;
+}
+.close{
+    text-decoration: none;
+    color: #666;
+    position: absolute;
+    right: 3px;
+    font: 18pt arial;
+}
+.direitaCima{
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+}
+#PesquisarProduto{
+    border: none;
+    outline:  none;
+    width: 75%;
+    padding: 3px;
+    padding-left: 30px;
+    color: #666;
+    background-color: white;
+    border: 2px solid #f9f9f9f9;
+    border-radius: 5px;
+}
+#NumerosClicados{
+    display: none;
+}
+.idss{
+    display: none;
+}
+.TipoAcçao{
+    display: none;
+}
+.direitaCima .div1{
+    width: 75%;
+}
+.i{
+    position: absolute;
+    background-color: #f9f9f9f9;
+    padding: 9px;
+    margin-top: 1px;
+    margin-left: 1px;
+    border-radius: 5px;
+    color: #ddd;
+    z-index: 1060;
+}
+.fa-info-circle{
+    z-index: 1060;
+}
+.direitaBaixo{
+    width: 100%;
+    height: 86%;
+    background-color: #f9f9f9f9;
+    overflow-y: auto;
+}
+.ProdutoNome{
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+}
+.pagamento{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1080;
+}
+#ProdutoPreco{
+    background-color: #A3498B;
+    color: white;
+    position: absolute;
+    right: 5px;
+    font-size: 12px;
+    z-index: 1060;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+}
+#numeros:hover{
+    background-color: red;
+    color: white;
+}
+.FormPagamento{
+    margin: 4%;
+    width: 900px;
+    margin-left: 32.5%;
+    height: 450px;
+    background-color: #f9f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+#totalEncomendaPagamento{
+    width: 100%;
+    height: 120px;
+    border-bottom: 2px solid #ddd;
+}
+.TotalEncomendas{
+    height: 118px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: #A3498B;
+}
+
+.troco{
+    font-size: 30px;
+    font-weight: 600;
+    color: #92487d;
+}
+.CalculoTotal{
+    height: 118px;
+    display: flex;
+}
+#pos{
+    display: flex;
+}
+.methodos{
+    margin: 10px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+}
+.metho div{
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(241, 241, 241);
+    color: #666;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+.TiposFaturas div{
+    padding: 5px;
+    font: 11pt arial;
+    font-weight: 600;
+    color: #888;
+    background-color: #f9f9f9f9;
+    border-bottom: 1px solid #eee;
+}
+.TiposFaturas div:hover{
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.success {
+    background-color: transparent;
+    color: #A3498B;
+    font: 10pt arial;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.AddMethod{
+    background-color: #f9f9f9f9;
+    color: #777;
+    text-align: center;
+    padding: 2%;
+    margin-top: 2%;
+}
+.AddMethod:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #A3498B;
+    color: white;
+    border-radius: 5px;
+}
+.metho div:hover{
+    background-color: #f9f9f9f9;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.FormPagamentoEsquerda{
+    width: 30%;
+    height: 88%;
+    border: 1px solid rgb(236, 236, 236);
+    margin-left: 2px;
+    border-radius: 5px;
+}
+#FrPgNum{
+    height: 265px;
+    width: 100%;
+    display: flex;
+}
+.div7{
+    width: 50%;
+    display: flex;
+}
+.FormTecladoPagamento{
+    width: 50%;
+    padding: 10px;
+    border-right: 2px solid #ddd;
+    height: 100%;
+}
+.DinheiroPegado{
+    background-attachment: fixed;
+    background-color: #f1f1f1f9;
+    width: 60%;
+    display: flex;
+}
+.DivValirCanselar{
+    width: 40%;
+}
+#CanselarPagamento{
+    background-color: #92487d;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+#CanselarPagamento:hover{
+    background-color: red;
+    cursor: pointer;
+    opacity: 0.8;
+}
+#ValidarPagamento{
+    background-color: #92487d;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+.DinheiroPegue{
+    height: 100%;
+    width: 50%;
+    display: block;
+}
+.DinheiroPegue div{
+    margin: 1px;
+    width: 100%;
+    text-align: center;
+    padding: 5.5px;
+    background-color: #f9f9f9f9;
+    color: #777;
+    border: 1px solid #f1f1f1f9;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.Recibo{
+    z-index: 1080;
+    background-color: #f9f9f9;
+}
+.DinheiroPegue div:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: white;
+    color: #666;
+}
+#ValidarPagamento:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#ValorNums{
+    height: 45px;
+    display: none;
+}
+.div4{
+    width: 50%;
+}
+.nume{
+    width: 100%;
+    display: flex;
+}
+.div5{
+    color: #777;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.div6{
+    width: 50%;
+}
+.div6 div{
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+}
+.ValorEntregue{
+    text-align: right;
+    position: absolute;
+    width: 110px;
+}
+.FormTecladoPagamentos{
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+.FormTecladoPagamentos div{
+    width: 32%;
+    display: inline-flex;
+    text-align: center;
+    height: 25%;
+    font: 35pt arial;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #777;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+#UsuarioConectado{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    display: flex;
+}
+.novasMenssagens{
+    position: absolute;
+    font: 12pt arial;
+    background-color: white;
+    margin-top: -10px;
+    color: #92487d;
+    margin-left: 15px;
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+    text-align: center;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.ResultadoBloco{
+    border: 1px solid #eee;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 300%;
+    background-color: #f9f9f9f9;
+    right: 90%;
+    position: absolute;
+    height: 700%;
+    z-index: 1080;
+    overflow: auto;
+}
+.DivBatePapo{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+.logoEmpresaBatePapo{
+    display: flex;
+    color: #666;
+    font-style: italic;
+    font-size: 17px;
+}
+.BatePapo{
+    font: 13pt arial;
+    font-weight: 600;
+    color: #A3498B;
+    margin-left: 20%;
+    margin-top: 5px;
+}
+.blocoUsuarios{
+    width: 100%;
+    height: 84%;
+    overflow: auto;
+}
+.UsuariosBatePapos{
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+    color: #888;
+    display: flex;
+}
+.UsuariosBatePapos .NomeCompleto{
+    font: 10pt arial;
+    font-weight: 500;
+    margin-left: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+.proccessar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fcfcfc44;
+    color: #A3498B;
+    text-align: center;
+}
+.proccessar i{
+    margin-top: 30%;
+}
+.BlocoSMS{
+    width: 100%;
+    height: 100%;
+    background-color: #fcfcfc44;
+}
+.UsuariosBatePapos:hover{
+    cursor: pointer;
+    background-color: #fcfcfcf9;
+}
+.UsuariosBatePapos img{
+    width: 30px;
+    border-radius: 30px;
+}
+.menssagensChat{
+    margin-right: 20px;
+    font-size: 25px;
+}
+#InputSms{
+    height: 35;
+    min-width: 85%;
+    min-height: 35px;
+    max-height: 80;
+    font: 13pt arial;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #888;
+}
+.InputSms{
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    bottom: 0;
+}
+.InputSms form{
+    display: flex;
+}
+.InputSms form button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0px;
+    color: #92487d;
+}
+.Menssagens{
+    height: 80%;
+    width: 100%;
+    overflow-y: auto;
+    padding: 5px;
+}
+.direita{
+    background-color: #92487d;
+    color: white;
+    margin: 10px;
+    font-size: 14px!important;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+.esquerda{
+    background-color: white;
+    color: #888;
+    margin: 10px;
+    font-size: 14px!important;
+    width: auto;
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.icone:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.FormTecladoPagamentos div:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.FormPagamentoDireita{
+    width: 70%;
+    height: 88%;
+}
+.NaoLida{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    font: 10pt arial;
+    background-color: #92487d;
+    color: white;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    width: 30px;
+}
+.alerte{
+    background-color: white;
+    color: #777;
+    padding: 10px;
+    font: 11pt arial;
+    font-weight: bold;
+    width: 150%;
+    margin-right: 10px;
+    margin-top: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5;
+}
+.NaoLidaSms{
+    background-color: white;
+    color: #999;
+    font-size: 13px;
+    font-style: italic;
+    width: 60px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+.div3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.CabechaPagamento{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+    margin: 5px;
+    color: #777;
+    text-align: center;
+    border: 1px solid #eee;
+}
+.ProdutoImagem{
+    text-align: center;
+    width: 90%;
+    margin-left: 2.5%;
+    height: 85%;
+    position: absolute;
+    top: 5px;
+}
+.SairPos{
+    color: #777;
+    margin-right: 3%;
+}
+.ProdutoImagem img{
+    border-radius: 5px;
+}
+.esquerdaCima{
+    width: 100%;
+    height: 50%;
+    overflow-y: auto;
+}
+.listaPedido{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding: 2px;
+    padding-left: 5px;
+    display: flex;
+}
+.listaPedido div{
+    width: 25%;
+}
+.listaPedido:nth-child(even){
+    background-color: #f9f9f9f9;
+}
+#pos{
+    margin-left: 25%;
+}
+.menssagem{
+    position: fixed;
+    z-index: 1080;
+}
+.totalEncomeda{
+    text-align: right;
+}
+.TotalEncomendase{
+    display: flex;
+}
+.totalEncomenda{
+    width: 50%;
+    color: #777;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    display: flex;
+    padding: 5px;
+    margin-top: 1%;
+}
+#pos div{
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 3px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+#pos div:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #92487d;
+}
+.listaPedido:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #A3498B;
+    color: white;
+}
+.posAtivo{
+    margin-left: 35%;
+    margin-top: 10px;
+    color: #A3498B;
+    font-size: 19px;
+    font-weight: 600;
+}
+.totalEncomenda{
+    font-size: 17px;
+    font-weight: 600;
+}
+.PagamentoDireita{
+    width: 50%;
+    border: 1px solid #eee;
+    margin-left: 1%;
+    border-radius: 5px;
+}
+.PagamentoDireita div i{
+    font-size: 43px;
+}
+.PagamentoDireita div{
+    width: 31%;
+    height: 24%;
+    font-weight: 600;
+    background-color: white;
+    font-size: 33px;
+    text-align: center;
+    top: 5px;
+    border: 1px solid #eee;
+    margin-top: 2px;
+    border-radius: 5px;
+    display: inline-flex;
+    color: #777;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.PagamentoDireita div:hover{
+    cursor: pointer;
+    background-color: #A3498B;
+    color: white;
+    opacity: 0.8;
+}
+.App{
+    height: 90%;
+}
+.QtdPrcImpr{
+    padding: 1px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+.QtdPrcImpr div{
+    background-color: white;
+    color: #777;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    width: 24.5%;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+.QtdPrcImpr div:hover{
+    background-color: #A3498B;
+    color: white;
+    cursor: pointer;
+}
+.FormPagamentoBaixo{
+    border: 1px solid #eee;
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+.PagamentoEsquerda{
+    width: 49%;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #777;
+}
+.PagamentoEsquerda:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.PagamentoEsquerda i{
+    margin-top: 40px;
+    font-size: 50px;
+}
+.esquerdaBaixo{
+    border: 1px solid #eee;
+    background-color: #f9f9f9f9;
+    width: 100%;
+    height: 50%;
+}
+.ProdutoImagem img{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}
+.PrecoProd{
+    width: 100%;
+    display: flex;
+}
+.nomeros{
+    display: inline-flex;
+}
+.formArtigo{
+    width: 133px;
+    background-color: white;
+    height: 125px;
+    margin-top: 10px;
+    margin-left: 8px;
+    position: relative;
+    border-radius: 2px;
+    padding: 3px;
+    display: inline-flex;
+    color: #777;
+    border: 1px solid #eee;
+}
+.formArtigo:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}

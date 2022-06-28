@@ -1,0 +1,142 @@
+@media print{
+    #notprint,body,header,footer,aside,form {
+      visibility: hidden;
+    }
+    @page{
+        size: auto;
+        margin: 0mm;
+      }
+    #recibo * {
+      visibility: visible;
+      background-color: white;
+      height: auto;
+      font-family: calibri;
+      font-size: 14px;
+    }
+  }
+.Obrigado{
+    font: 12pt arial;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+.Cliente{
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: 2px solid;
+}
+.Cliente .title{
+    width: 100%;
+    margin-left: 45%;
+    text-align: center;
+    font: 13pt arial; font-weight: 600;
+}
+.InfoCliente {
+    width: 100%;
+}
+.InfoCliente div{
+    font: 12pt arial;
+    font-weight: 600;
+    display: flex;
+}
+.InfoCliente span{
+    font: 11pt arial;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.TotalFatura{
+    width: 40%;
+    text-align: right;
+}
+.PrecoFatura{
+    width: 35%;
+    padding-left: 15px;
+}
+.QuantidadeFatura{
+    width: 25%;
+    text-align: center;
+}
+.listaItens{
+    margin-top: 5px;
+}
+#EmpresaEnfo{
+    border: 2px solid #ddd;
+    width: 100%;
+    padding: 10px;
+}
+#EmpresaEnfo h2{
+    text-align: center;
+}
+
+
+.telefone{
+    display: flex;
+    text-align: center;
+    margin-left: 50px;
+}
+.numero{
+    margin-left: 30px;
+}
+.telefone div{
+    font: 14pt arial;
+    font-weight: 600;
+}
+.nif{
+    margin-left: 50px;
+    display: flex;
+    text-align: center;
+}
+.numero{
+    margin-left: 30px;
+}
+.nif div{
+    font: 14pt arial;
+    font-weight: 600;
+}
+
+
+
+
+#NovaEncomenda{
+    padding: 5px;
+    background-color: #A3498B;
+    color: white;
+    border-radius: 5px;
+    font: 15pt arial;
+    width: 160px;
+}
+.totais{
+    text-align: right;
+    width: 50%;
+}
+.TiposPag{
+    width: 50%;
+}
+.PrecoQuant{
+    display: flex;
+}
+.InfoPag{
+    border-top: 1px solid;
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+}
+.InfoPag div{
+    margin-top: 3px;
+}
+.CodBar{
+    display: flex;
+}
+.Titls{
+    display: flex;
+    border: 2px solid #888;
+    padding: 3px;
+}
+.Titls div{
+    width: 50%;
+}
+.totalTitl{
+    text-align: right;
+    padding-right: 20px;
+}

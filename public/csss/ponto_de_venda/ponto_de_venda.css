@@ -1,0 +1,614 @@
+.App{
+    margin-top: 39px;
+    width: 100%;
+    height: 75%;
+    background-color: #f9f9f9f9;
+}
+
+.CriarCaixa{
+    background-color: #00c2cc;
+    color: white;
+    margin: 10px;
+}
+.BlocoPointSale{
+    width: 70%;
+    overflow-y: auto;
+    height: 86%;
+    background-color: white;
+    margin-left: 15%;
+}
+
+.titlsMovementosProd{
+    background-color: #f9f9f9f9;
+    font: 12pt arial;
+    font-weight: 600;
+}
+.titlsMovementosProd div{
+    width: 16.67%;
+    padding: 5px;
+    border-left: 1px solid #eee;
+}
+.ListaMovementosProd:nth-child(even){
+    background-color: #f3f3f3f9;
+}
+.ListaMovementosProd:hover{
+    background-color: #f9f9f9f9;
+    cursor: pointer;
+}
+.ListaMovementosProd div{
+    width: 16.67%;
+    font: 10pt arial;
+    font-weight: 600;
+}
+.ResultadoMovementosProd{
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1080;
+    top: 0;
+}
+.FecharBlocoMuve{
+    margin-top: -35px;
+}
+#NomeCash{
+    width: 100%;
+    padding: 2px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #eee;
+    background-color: #f9f9f9f9;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #666;
+    margin-top: 5px;
+}
+.select_user:hover{
+    cursor: pointer;
+}
+.ListCaixas{
+    background-color: #f9f9f9f9;
+}
+.FormCaixaCima{
+    background-color: #f9f9f9f9;
+    border: none;
+}
+#FormSession{
+    width: 70%;
+    margin-left: 15%;
+    height: 400px;
+    z-index: 1060;
+    background-color: white;
+}
+.BtnColor{
+    color: white;
+    background-color: #0bdbe6;
+    border-color: #0bdbe6;
+}
+.FormSessionCima{
+    background-color: #f9f9f9f9;
+}
+.FormSessionCima i{
+    font-size: 35px;
+    font-weight: 100;
+    color: #eee;
+}
+.CamponentSessoes{
+    width: 100%;
+    margin-top: 40px;
+    height: 85%;
+    background-color: white;
+    opacity: 1;
+    border-top: 1px solid #ddd;
+}
+.titlosSession{
+    border: none;
+    background-color: #f9f9f9f9;
+}
+.CamponentSessoesListe{
+    background-color: white;
+    width: 100%;
+    height: 99%;
+}
+.ListeSessoes{
+    border-bottom: 1px solid #f9f9f9f9;
+    verflow-y: auto;
+}
+.ListeSessoes:nth-child(even){
+    background-color: #fcfcfcf9;
+}
+.ListeSessoes:hover{
+    cursor: pointer;
+    background-color: #f9f9f9f9;
+}
+.ListeSessoes div{
+    width: 16.65%;
+    padding-left: 3px;
+    color: #777;
+}
+.titlosSession div{
+    width: 16.65%;
+    border-right: 1px solid rgb(241, 241, 241);
+    padding: 3px;
+    font-weight: 600;
+}
+#diInputAbertura{
+    margin-left: 200px;
+    width: 300px;
+    position: absolute;
+}
+.ListaDeSessoes{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+#diInputAbertura input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-bottom: 2px solid #f9f9f9f9;
+    margin-top: 10px;
+    font-weight: 600;
+    padding: 5px;
+    color: #777;
+}
+.linha{
+    background-color: #00c2cc;
+    border: 1px solid #eeee;
+}
+.FormSessionMeio{
+    background-color: white;
+    border: none;
+}
+.FormSessionCima div{
+    width: 150px;
+    border: none;
+}
+.FormSessions{
+    top: 145px;
+}
+.AbrirControlo{
+    width: 90px;
+    color: #0bdbe6;
+    background-color: white;
+    border-color: #f9f9f9f9;
+}
+.AbrirControlo:hover{
+    cursor: pointer;
+    background-color: #00c2cc;
+    border-color: #00c2cc;
+    color: white;
+}
+.estado{
+    position: absolute;
+    margin-left: 35%;
+}
+.FormCaixaCima img{
+    width: 20px;
+    border-radius: 30px;
+}
+.bars{
+    position: absolute;
+    float: right;
+    margin-left: 45%;
+    font-size: 18px;
+}
+.opcoes{
+    background-color: white;
+    border: 1px solid #f9f9f9f9;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: -195px;
+    font-size: 15px;
+}
+.opcoes div{
+    padding: 1px;
+    padding-left: 10px;
+}
+.opcoes div:hover{
+    cursor: pointer;
+    background-color: #f9f9f9f9;
+    opacity: 0.8;
+}
+.bars i:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.FormCaixas{
+    width: 49%;
+    margin: 5px;
+    background-color: white;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+}
+.btnGuardar{
+    background-color: #00c2cc;
+    color: white;
+}
+#nav_da_home_compra{
+    z-index: 1080;
+}
+.btnForm{
+    background-color: white;
+    border: 3px solid #dddd;
+}
+.BlocoCaixa{
+    width: 100%;
+    height: 80%;
+    top: 0;
+    background-color: #f9f9f9f9;
+    z-index: 1060;
+}
+.FormBlocoGeral{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 40px;
+}
+.menssagem{
+    position: fixed;
+    z-index: 1080;
+    text-align: center;
+}
+#MultTrans{
+    background-color: #f9f9f9f9;
+    width: 50%;
+}
+.multicaixa{
+    height: 49%;
+    text-align: center;
+    border: 1px solid #eee;
+}
+.multicaixa i{
+    width: 100%;
+    height: 100%;
+    font-size: 120px;
+    color: #A3498B;
+}
+.titleMult{
+    position: absolute;
+    width: 15%;
+    text-align: center;
+    color: white;
+}
+.ArtigosListTitl{
+    width: 15%;
+    padding: 2;
+    background-color: #f9f9f9f9;
+    border-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.ArtigosListTitl div{
+    padding: 3px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: white;
+    font-weight: 500;
+}
+.ArtigosListTitl div:hover{
+    background-color: #f9f9f9f9;
+    cursor: pointer;
+}
+.ListRelatorios{
+    width: 15%;
+    padding: 2;
+    background-color: #f9f9f9f9;
+    border-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.ListRelatorios div{
+    padding: 3px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: white;
+    font-weight: 500;
+}
+.ResultRetornos{
+    height: 80%;
+}
+.DivOrdensVendas{
+    background-color: white;
+    height: 86%;
+}
+.titleGastos{
+    width: 100%;
+    background-color: #f9f9f9f9;
+    border-top: 2px solid #f1f1f1f9;
+    font: 10pt arial;
+}
+.titleOrdens{
+    width: 100%;
+    background-color: #f9f9f9f9;
+    border-top: 2px solid #f1f1f1f9;
+    font: 10pt arial;
+}
+.TotalAvaliaçoes{
+    background-color: #A3498B;
+    color: white;
+}
+.TotalAvaliaçoes div{
+    width: 33%;
+    font: 12pt arial;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.TotalAvaliaçoes span{
+    font: 15pt arial;
+    font-weight: 600;
+}
+.TotalAvaliaçoes:hover{
+    background-color: white;
+    color: #777;
+}
+.ListaGastos{
+    width: 100%;
+    color: #777;
+    padding: 2px;
+}
+.ListaGastos div{
+    width: 20%;
+    font: 11pt arial;
+    font-weight: 500;
+}
+.ListaGastos:nth-child(even){
+    background-color: #fcfcfcf9;
+}
+.ListaGastos:hover{
+    background-color: #f9f9f9f9;
+    cursor: pointer;
+}
+
+.ListaOrdens{
+    width: 100%;
+    color: #777;
+    padding: 2px;
+}
+.ListaOrdens div{
+    width: 14.5%;
+    font: 11pt arial;
+    font-weight: 500;
+}
+
+.ListaOrdens:nth-child(even){
+    background-color: #fcfcfcf9;
+}
+.ListaOrdens:hover{
+    background-color: #f9f9f9f9;
+    cursor: pointer;
+}
+.TotalOrden{
+    text-align: right;
+}
+.OrdenCima{
+    height: 18%;
+    padding-top: 10px;
+}
+#PesquisarOrden{
+    border: none;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 3px;
+    padding-left: 12px;
+    border-radius: 5px;
+}
+.OrdenCimaDireita div{
+    width: 95%;
+}
+.ListAgrupar{
+    width: 15%;
+}
+.FormListaBaixo{
+    height: 83%;
+    background-color: #f9f9f9f9;
+    padding: 0;
+}
+.annular{
+    font: 10pt arial;
+    font-weight: 600;
+}
+.annular:hover{
+    cursor: pointer;
+}
+.FormListPedidos{
+    background-color: white;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+.titloListPedidos div{
+    width: 15%;
+    border-left: 1px solid #ddd;
+    padding-left: 5px;
+    padding: 5px;
+    font: 10pt arial;
+    font-weight: 600;
+}
+#ValidaPorIntervalo{
+    background-color: #00c2cc;
+    color: white;
+    float: right;
+    margin-top: 5px;
+}
+.titleListEncomenda{
+    width: 100%;
+    font: 12pt arial;
+    font-weight: 600;
+    background-color: #f9f9f9f9;
+}
+.titleListEncomenda div{
+    width: 16%;
+    padding-left: 10px;
+    padding: 7px;
+    border-left: 1px solid #eee;
+}
+.listaEncomendasRelatorio{
+    width: 100%;
+}
+.encomendasRelatorio{
+    width: 80%;
+    height: 30%;
+}
+.listaEncomendasRelatorio div{
+    width: 16.2%;
+    font: 10pt arial;
+    font-weight: 500;
+}
+.ListaEncomRelat{
+    padding: 5px;
+}
+.ListaEncomRelat div{
+    margin-left: 2px;
+}
+.ListaEncomRelat:nth-child(even){
+    background-color: #fcfcfcf9;
+}
+.ListaEncomRelat:hover{
+    background-color: #f9f9f9f9;
+    cursor: pointer;
+}
+.ListPedidos:nth-child(even){
+    background-color: #fcfcfcf9;
+}
+.ListPedidos{
+    font: 10pt arial;
+    font-weight: 500;
+    padding: 6px;
+    border-bottom: 1px solid #ddd;
+}
+.ListPedidos:hover{
+    cursor: pointer;
+    background-color: #f9f9f9f9;
+}
+.ListPedidos div{
+    width: 15%;
+    padding-left: 5px;
+
+}
+.direita{
+    text-align: right;
+    padding-right: 10px;
+}
+.BorderBottom{
+    border-bottom: 10px solid #f9f9f9f9;
+}
+.TitleTotaies div{
+    font: 10pt arial;
+    font-weight: 600;
+    margin-top: 8.5px;
+}
+.ListOrdenClick{
+    margin-top: 10px;
+
+}
+.ListOrdenClick:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.InformacoesEncomenda{
+    font: 10pt arial;
+    font-weight: 600;
+}
+.Infos div{
+    font: 10pt arial;
+    margin-top: 9px;
+}
+.InformacoesEncomenda div{
+    margin-top: 10px;
+}
+.Totaies div{
+    font: 10pt arial;
+    font-weight: 800;
+    margin-top: 5px;
+}
+.Totaless{
+    text-align: right;
+    margin-left: 75%;
+}
+.FormListaCima{
+    height: 17%;
+    border-bottom: 2px solid #ddd;
+}
+.ArquivoPedidos{
+    margin-top: 43px;
+    height: 87%;
+}
+.encostar{
+    margin-left: 93%;
+    margin-top: -30px;
+}
+.cursor:hover{
+    background-color: #f9f9f9f9;
+}
+.OrdenCimaDireita div i{
+    margin-left: -20px;
+    margin-top: 8px;
+}
+.titleGastos div{
+    width: 20%;
+    border-left: 1px solid #eee;
+    padding: 5px;
+    padding-left: 5px;
+}
+#Assunto{
+    border: none;
+    outline: none;
+    max-height: 50%;
+    height: 50%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+}
+.BlocoNovoGastoBaixo{
+    float: right;
+}
+.TotalGastos{
+    width: 25%;
+    right: 0;
+    text-align: right;
+    font: 18pt arial;
+    font-weight: 600;
+}
+.titleOrdens div{
+    width: 14%;
+    border-left: 1px solid #eee;
+    padding: 5px;
+    padding-left: 5px;
+}
+.ListRelatorios div:hover{
+    background-color: #f9f9f9f9;
+    cursor: pointer;
+}
+.totalValor{
+    margin-top: 50px;
+    font-size: 25px !important;
+    font-weight: 600;
+    text-align: center;
+}
+#velorEnformado{
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    width: 100%;
+    border-bottom: 2px solid #eee !important;
+    padding: 2px;
+    font-weight: 600 !important;
+}
+.transferencia{
+    height: 49%;
+    text-align: center;
+    border: 1px solid #eee;
+}
+.transferencia i{
+    font-size: 70px;
+    color: #A3498B;
+}
+.titleTransferen{
+    color: #666;
+    font-size: 16pt arial;
+}

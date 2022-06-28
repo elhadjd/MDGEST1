@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mdgest1:
+    image: mdgest1
+    build:
+      context: .
+      dockerfile: ./Dockerfile
